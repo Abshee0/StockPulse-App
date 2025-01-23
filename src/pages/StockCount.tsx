@@ -91,7 +91,7 @@ function StockCount() {
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   {item.qty_in_stock} {item.unit}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-center">
                   <button
                     onClick={() => setEditingItem(item)}
                     className="text-purple-600 hover:text-purple-900"

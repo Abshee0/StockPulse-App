@@ -17,6 +17,7 @@ import Brands from './pages/settings/Brands';
 import Locations from './pages/settings/Locations';
 import UserRoles from './pages/settings/UserRoles';
 import StockCount from './pages/StockCount';
+import StockUsage from './pages/StockUsage';
 import DiscardStock from './pages/DiscardStock';
 import ProtectedRoute from './components/ProtectedRoute';
 
@@ -34,6 +35,7 @@ function App() {
               <Route path="/inventory" element={<Inventory />} />
               <Route path="/inventory/add" element={<AddItem />} />
               <Route path="/inventory/stock-count" element={<StockCount />} />
+              <Route path="/inventory/stock-usage" element={<StockUsage />} />
               <Route path="/inventory/discard" element={<DiscardStock />} />
               <Route path="/orders" element={<Orders />} />
               <Route path="/reports" element={<Reports />} />
